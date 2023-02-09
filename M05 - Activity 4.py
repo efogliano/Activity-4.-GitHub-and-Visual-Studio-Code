@@ -12,7 +12,7 @@ def HowManySquares():
     finestra = Tk()
     canvas = Canvas(finestra, width=WIDTH, height=HEIGHT, background="white")
     canvas.pack()
-
+    #Comment
     canvas.create_text(300, 50, text="HOW MANY SQUARES CAN YOU FIND?", font=('Arial',20), fill="black")
     #Quadrats superior esquerra 
     canvas.create_rectangle(0,100,150,250, width=2, fill="grey")
