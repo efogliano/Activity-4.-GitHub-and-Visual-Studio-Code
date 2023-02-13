@@ -18,16 +18,22 @@ def triangle():
     canvas.create_text(amplada*0.5,altura*0.05, text="How many Triangles")
 
 
-    #Linies
+    #Basic Linies
     canvas.create_line(amplada*0.1,altura*0.9,amplada*0.5,altura*0.1)
     canvas.create_line(amplada*0.5,altura*0.1,amplada*0.9,altura*0.9)
     canvas.create_line(amplada*0.1,altura*0.9,amplada*0.9,altura*0.9)
 
+    #Interior Horizontal
+    canvas.create_line(amplada*0.4,altura*0.3,amplada*0.6,altura*0.3)
+    canvas.create_line(amplada*0.3,altura*0.5,amplada*0.7,altura*0.5)
+    canvas.create_line(amplada*0.2,altura*0.7,amplada*0.8,altura*0.7)
 
+    #Interior Vertical
+    canvas.create_line(amplada*0.35,altura*0.9,amplada*0.5,altura*0.1)
+    canvas.create_line(amplada*0.5,altura*0.1,amplada*0.65,altura*0.9)
 
     canvas.pack()
     mainloop()
-    print("oi")
 #Jaume
 
 #Main
