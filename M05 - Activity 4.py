@@ -46,9 +46,9 @@ def Triangle():
     from tkinter import Tk, Canvas, Button, mainloop
     #parametres of width and height for the drawing window
     print("How big do you want the emerging window?")
-    print("The width in pixels")
-    altura=GetPositiveValue()
     print("The height in pixels")
+    altura=GetPositiveValue()
+    print("The width in pixels")
     amplada=GetPositiveValue()
     # mesCares = percentatgeCares*altura/100 -> Calcula amb percentatge la coordenada, util per responsive
 
@@ -128,7 +128,7 @@ def HowManySquares():
 #MAIN
 
 #Show Figure1
-GetPositiveValue()
+print("Welcome to this quiz, in order to proceded or answer please close the window with drawings.")
 Triangle()
 try:
     answer = int (input("How many triangles are there in the following figure?"))
@@ -150,7 +150,7 @@ else:
 HowManySquares()
 try:
     answer = int (input("How many squares are there in the following figure?"))
-    if answer == 20: 
+    if answer == 51: 
         valid=True
     else: 
         valid=False
