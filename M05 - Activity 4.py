@@ -130,8 +130,9 @@ def HowManySquares():
 #Show Figure1
 print("Welcome to this quiz, in order to proceded or answer please close the window with drawings.")
 Triangle()
+print("How many triangles are there in the following figure?")
+answer  = GetPositiveValue()
 try:
-    answer = int (input("How many triangles are there in the following figure?"))
     if answer == 24: 
         valid=True
     else: 
@@ -148,8 +149,9 @@ else:
 
 #Show Figure2
 HowManySquares()
+print("How many squares are there in the following figure?")
+answer  = GetPositiveValue()
 try:
-    answer = int (input("How many squares are there in the following figure?"))
     if answer == 51: 
         valid=True
     else: 
